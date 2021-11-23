@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: blue;
+}
+ul {
+  list-style: none;
+}
+div {
+  padding: 0 30px;
+}
+.header {
+  display: flex;
+  height: 60px;
+  align-items: center;
+}
+.header nav {
+  margin-left: auto;
+}
+.header ul {
+  display: flex;
+}
+.header ul li {
+  margin-left: 20px;
+}
+
+.bg {
+  background-image: url("../image/firstview.jpeg");
+  height: 500px;
+  width: 730px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 70px;
+  right: 10px;
+  z-index: 2;
+}
+
+.bg_color {
+  height: 150px;
+  width: 900px;
+  background-color: blue;
+  position: absolute;
+  bottom: 100px;
+  z-index: 1;
+}
+
+p.everyday {
+  font-size: 50px;
+  color: black;
+  position: absolute;
+  bottom: 250px;
+}
