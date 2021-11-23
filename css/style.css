@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: blue;
+}
+ul {
+  list-style: none;
+}
+div {
+  padding: 0 30px;
+}
+.header {
+  display: flex;
+  height: 60px;
+  align-items: center;
+}
+.header nav {
+  margin-left: auto;
+}
+.header ul {
+  display: flex;
+}
+.header ul li {
+  margin-left: 20px;
+}
+
+.bg {
+  background-image: url("../image/firstview.jpeg");
+  height: 600px;
+  width: 830px;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+  margin-right: 10px;
+  margin-left: 600px;
+  z-index: 1;
+}
+
+.bg_color {
+  height: 150px;
+  width: 900px;
+  background-color: blue;
+  z-index: 2;
+}
+
+p.everyday {
+  font-size: 50px;
+  color: black;
+  position: relative;
+  bottom: 200px;
+}
