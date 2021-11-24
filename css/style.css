@@ -26,11 +26,11 @@ div {
 
 .bg {
   background-image: url("../image/firstview.jpeg");
-  height: 500px;
-  width: 730px;
+  height: 70%;
+  width: 50%;
   background-repeat: no-repeat;
   position: absolute;
-  top: 70px;
+  top: 80px;
   right: 10px;
   z-index: 2;
 }
